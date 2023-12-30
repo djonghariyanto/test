@@ -11,13 +11,13 @@ public class Test {
 
     @GetMapping("doh")
 	public String Doh() {
-		return "this is doh";
+		return "testing recent push this is doh";
 	}
     
     @GetMapping("greeter")
 	public Greeting Greeter() {
 
-	return new Greeting(1, String.format("%s", "dumb dumb babon gila"));
+	return new Greeting(1, String.format("%s", "s dumb dumb babon gila"));
 	}
 
 	public static void main(String[] args) {
