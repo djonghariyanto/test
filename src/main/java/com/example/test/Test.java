@@ -11,7 +11,7 @@ public class Test {
 
     @GetMapping("doh")
 	public String Doh() {
-		return "babon gila";
+		return "this things is working";
 	}
     
     @GetMapping("greeter")
